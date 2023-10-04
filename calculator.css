@@ -1,0 +1,71 @@
+html {
+    background-color: #152338;
+}
+.button {
+    height: 70px;
+    width: 70px;
+    font-size: 18pt;
+    background-color: #374558;
+    
+    color: rgba(255, 255, 255, 0.74);
+    font-weight: 600;
+    box-shadow: 0 2px black;
+}
+#zero {
+    position: relative; top: 420px; left: 840px;
+    width: 149px;
+}
+#dot {
+    position: relative; top: 420px; left: 845px;
+}
+#equal {
+    position: relative; top: 420px; left: 850px;
+}
+
+#one {
+    position: relative; top: 550px; left: 840px;
+}
+#two {
+    position: relative;  top: 550px; left: 845px;
+}
+#three {
+    position: relative; top: 550px; left: 850px;
+}
+#four {
+    position: relative; top: 400px; left: 840px;
+}
+#five {
+    position: relative; top: 400px; left: 845px;
+}
+#six {
+    position: relative; top: 400px; left: 850px
+}
+#seven {
+    position: relative; top: 250px; left: 840px;
+}
+#eight {
+    position: relative; top: 250px; left: 845px;
+}
+#nine {
+    position: relative; top: 250px; left: 850px
+}
+#add {
+    position: relative; top: 550px; left: 855px;
+}
+#subtract {
+    position: relative; top: 400px; left: 855px;
+}
+#multiply {
+    position: relative; top: 250px; left: 855px;
+}
+#divide {
+    position: relative; top: 30px; left: 1003px;
+}
+#AC {
+    position: relative; top: 30px; left: 840px;
+}
+label[id="display"]{
+    color: white;
+    font-size: 50px;
+    position: relative; top: 250px; left: 840px
+}

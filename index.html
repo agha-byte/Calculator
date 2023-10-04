@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        
+        <link rel="stylesheet", href ="calculator.css" />
+        <meta charset = "UTF-8">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <div id = "container">
+            
+           <label id = "display">0</label>
+            <div id = "fourthRow">
+                <input type = "button", id = "one", class = "button", value="1" />
+                <input type = "button", id = "two", class = "button", value="2" />
+                <input type = "button", id = "three", class = "button", value="3" />
+                <input type = "button", id = "add", class = "button" value = "+" />
+            </div>
+            <div id = "thirdRow">
+                <input type = "button", id = "four", class = "button" value = "4">
+                <input type = "button", id = "five", class = "button" value = "5">
+                <input type = "button", id = "six", class = "button" value = "6">
+                <input type = "button", id = "subtract", class = "button" value = "-" />
+            </div>
+            <div id = "secondRow">
+                <input type = "button", id = "seven", class = "button", value = "7">
+                <input type = "button", id = "eight", class = "button", value = "8">
+                <input type = "button", id = "nine", class = "button", value = "9">
+                <input type = "button", id = "multiply", class = "button" value = "x" />
+            </div>
+            <div id = "fifthRow">
+                <input type = "button", id = "zero", class = "button", value = "0" >
+                <input type = "button", id = "dot", class = "button", value = "." >
+                <input type = "button", id = "equal", class = "button", value = "=" >
+            </div>
+          
+            <div id = "firstRow">
+                <input type = "button", id = "AC", class = "button", value = "AC" >
+                <input type = "button", id = "divide", class = "button", value = "/" >
+            </div>
+            
+
+        </div>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.11.1/math.js" integrity="sha512-PSHSbngD/Hc1zYbMeM4xUMRt+gD8x7xYdZaDqRE8iy1oDu94O2Mqi2WqYe8QWji50+4EFBbp/Opwc+Nl+ruaqw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src = "calculator.js"></script>
+    </body>
+</html>
